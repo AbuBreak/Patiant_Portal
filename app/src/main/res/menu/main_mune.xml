@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home"
+            />
+
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profile"
+            android:title="Profile" />
+    </group>
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Booking">
+
+            <menu>
+                <item
+                    android:id="@+id/Clinics"
+                    android:icon="@android:drawable/ic_menu_my_calendar"
+
+                    android:title="Clinics" />
+
+                <item
+                    android:id="@+id/off"
+                    android:icon="@drawable/ff"
+                    android:title="Day Off" />
+
+
+            </menu>
+
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:title="Lab">
+
+            <menu>
+                <item
+                    android:id="@+id/LabTest"
+                    android:icon="@drawable/lab"
+                    android:title="Lab Information" />
+                <item
+                    android:id="@+id/result"
+                    android:icon="@drawable/insurance"
+                    android:title="Lab Result" />
+
+            </menu>
+        </item>
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Information">
+
+            <menu>
+                <item
+                    android:id="@+id/Insurance"
+                    android:icon="@drawable/out"
+                    android:title="Insurance Company " />
+
+                <item
+                    android:id="@+id/feedback"
+                    android:icon="@drawable/feedd"
+                    android:title="Feedback " />
+
+                <item
+                    android:id="@+id/us"
+                    android:icon="@drawable/cont"
+                    android:title="Contact Us " />
+
+
+
+            </menu>
+        </item>
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Action">
+
+            <menu>
+
+                <item
+                    android:id="@+id/Log_Out"
+                    android:icon="@drawable/ooooo"
+                    android:title="Log Out" />
+
+
+            </menu>
+        </item>
+    </group>
+</menu>

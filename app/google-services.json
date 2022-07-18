@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "617935165752",
+    "project_id": "ju-hospital",
+    "storage_bucket": "ju-hospital.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617935165752:android:22b5d78919eb582d3a49cd",
+        "android_client_info": {
+          "package_name": "com.example.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "617935165752-kkqoppf04bhdu41gu2d4nr69rjjk1saj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXUqaVHYrgV9xvheMlnX1usyZ7s1FH4tQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "617935165752-kkqoppf04bhdu41gu2d4nr69rjjk1saj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

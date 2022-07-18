@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_us"
+    android:id="@+id/usss">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/karam_backgrond"
+            android:elevation="4dp"
+            app:titleTextColor="#000"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+            tools:ignore="MissingConstraints" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal"
+            android:background="@drawable/contact_uss">
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_baseline_phone_android_24"
+                tools:srcCompat="@drawable/ic_baseline_phone_android_24" />
+
+            <TextView
+                android:id="@+id/name_textview"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="74dp"
+                android:text="+ 962 6 5353444 / 5353666"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:paddingTop="10dp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/fax"
+                tools:srcCompat="@drawable/fax" />
+
+            <TextView
+                android:id="@+id/name_textview1"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="74dp"
+                android:text="fax: +962  6 5353388"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:paddingTop="10dp"  />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/mmmm"
+                tools:srcCompat="@drawable/mmmm" />
+
+            <TextView
+                android:id="@+id/name_textview2"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="74dp"
+                android:text=" juhosp@ju.edu.jo"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:paddingTop="10dp"  />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="and you can follow us on Facebook"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/facebook"
+                tools:srcCompat="@drawable/facebook" />
+
+            <TextView
+                android:id="@+id/name_textview3"
+                android:layout_width="260dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="74dp"
+                android:text=" Facebook.com/JuHospital"
+                android:inputType="text"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:paddingTop="10dp"  />
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_mune"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="MissingConstraints">
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>

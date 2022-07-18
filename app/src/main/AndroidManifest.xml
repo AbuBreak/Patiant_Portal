@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.application">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Application">
+        <activity
+            android:name=".Off"
+            android:exported="false" />
+        <activity
+            android:name=".sucDialog"
+            android:exported="false" />
+        <activity
+            android:name=".feesback"
+            android:exported="false" />
+        <activity
+            android:name=".contact_us"
+            android:exported="false" />
+        <activity
+            android:name=".ret"
+            android:exported="false" />
+        <activity
+            android:name=".Lab"
+            android:exported="false" />
+        <activity
+            android:name=".lab_test_info"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".profile_patient"
+            android:exported="false" />
+        <activity
+            android:name=".Clinics2"
+            android:exported="false" />
+        <activity
+            android:name=".List"
+            android:exported="false" />
+        <activity
+            android:name=".Insurance"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
+            android:name=".Mobile"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
